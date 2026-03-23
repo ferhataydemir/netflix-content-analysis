@@ -1,10 +1,10 @@
-\# Netflix İçerik Analizi ve Sınıflandırma Projesi
+# Netflix İçerik Analizi ve Sınıflandırma Projesi
 
 **Bu proje portföy geliştirme amacıyla hazırlanmıştır.**
 
 &#x20;
 
-\## Proje Hakkında
+## Proje Hakkında
 
 Netflix platformundaki 8.800+ içerik üzerinde keşifsel veri analizi yapılmış,  
 
@@ -16,13 +16,13 @@ gösterse de, problem yapısı gereği sınıflandırma kolay olabilir.
 
 &#x20;
 
-\## Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 
 &#x20;
 
-\## EDA Bulguları
+## EDA Bulguları
 
 |Grafik|Bulgu|
 |-|-|
@@ -37,7 +37,7 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 
 
 
-\## Feature Engineering
+## Feature Engineering
 
 > `duration` sütunundan sayısal değer çıkarıldı (dakika / sezon)
 
@@ -51,7 +51,7 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 
 &#x20;
 
-\## Makine Öğrenmesi
+## Makine Öğrenmesi
 
 **Hedef:** `type` → Movie (0) / TV Show (1)
 
@@ -74,7 +74,7 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 
 
 
-\## Genel Bulgular
+## Genel Bulgular
 
 
 
@@ -88,7 +88,7 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 
 
 
-\## Veri Seti
+## Veri Seti
 
 **Kaynak:** [Netflix Movies and TV Shows — Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
