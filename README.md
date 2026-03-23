@@ -32,7 +32,7 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 |Top 10 Tür|International Movies, Dramas, Comedies öne çıkıyor|
 |Film süresi|80–100 dakika aralığında yoğunlaşıyor, sağa çarpık dağılım|
 
-> \\\*\\\*Veri kalitesi notu:\\\*\\\* `rating` sütununda `74 min`, `84 min` gibi hatalı değerler tespit edilmiştir.
+> **Veri kalitesi notu:** `rating` sütununda `74 min`, `84 min` gibi hatalı değerler tespit edilmiştir.
 > Bu değerler `duration` sütunundan kaynaklanmakta olup model öncesinde temizlenmiştir.
 
 
@@ -67,7 +67,7 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 |Recall|1.00|
 |F1-Score|1.00|
 
-> \\\*\\\*Yüksek accuracy notu:\\\*\\\* Model %99.97 doğruluk elde etmiştir.
+> **Yüksek accuracy notu:** Model %99.97 doğruluk elde etmiştir.
 > Bu sonuç, `duration` gibi sütunların hedef değişken (`type`) ile doğrudan ilişkili olmasından kaynaklanıyor olabilir.
 > Filmler dakika, diziler sezon cinsinden süre içerdiğinden model kısayol buluyor olabilir.
 > Gerçek bir üretim senaryosunda bu tür özellikler dikkatli değerlendirilmelidir.
