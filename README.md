@@ -41,11 +41,11 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 
 > `duration` sütunundan sayısal değer çıkarıldı (dakika / sezon)
 
-> `date\\\_added` sütunundan `year\\\_added` ve `month\\\_added` türetildi
+> `date_added` sütunundan `year_added` ve `month_added` türetildi
 
-> `listed\\\_in` sütunundan `genre\\\_count` özelliği oluşturuldu
+> `listed_in` sütunundan `genre_count` özelliği oluşturuldu
 
-> `description` sütunundan karakter uzunluğu (`desc\\\_length`) hesaplandı
+> `description` sütunundan karakter uzunluğu (`desc_length`) hesaplandı
 
 > Eksik değerler ilgili sütunun modu/medyanı ile dolduruldu
 
