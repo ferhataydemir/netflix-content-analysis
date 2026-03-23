@@ -1,10 +1,10 @@
-\# Netflix İçerik Analizi ve Sınıflandırma Projesi
+# Netflix İçerik Analizi ve Sınıflandırma Projesi
 
 **Bu proje portföy geliştirme amacıyla hazırlanmıştır.**
 
 &#x20;
 
-\## Proje Hakkında
+## Proje Hakkında
 
 Netflix platformundaki 8.800+ içerik üzerinde keşifsel veri analizi yapılmış,  
 
@@ -16,13 +16,13 @@ gösterse de, problem yapısı gereği sınıflandırma kolay olabilir.
 
 &#x20;
 
-\## Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 
 &#x20;
 
-\## EDA Bulguları
+## EDA Bulguları
 
 |Grafik|Bulgu|
 |-|-|
@@ -32,26 +32,26 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 |Top 10 Tür|International Movies, Dramas, Comedies öne çıkıyor|
 |Film süresi|80–100 dakika aralığında yoğunlaşıyor, sağa çarpık dağılım|
 
-> \\\*\\\*Veri kalitesi notu:\\\*\\\* `rating` sütununda `74 min`, `84 min` gibi hatalı değerler tespit edilmiştir.
+> **Veri kalitesi notu:** `rating` sütununda `74 min`, `84 min` gibi hatalı değerler tespit edilmiştir.
 > Bu değerler `duration` sütunundan kaynaklanmakta olup model öncesinde temizlenmiştir.
 
 
 
-\## Feature Engineering
+## Feature Engineering
 
 > `duration` sütunundan sayısal değer çıkarıldı (dakika / sezon)
 
-> `date\\\_added` sütunundan `year\\\_added` ve `month\\\_added` türetildi
+> `date_added` sütunundan `year_added` ve `month_added` türetildi
 
-> `listed\\\_in` sütunundan `genre\\\_count` özelliği oluşturuldu
+> `listed_in` sütunundan `genre_count` özelliği oluşturuldu
 
-> `description` sütunundan karakter uzunluğu (`desc\\\_length`) hesaplandı
+> `description` sütunundan karakter uzunluğu (`desc_length`) hesaplandı
 
 > Eksik değerler ilgili sütunun modu/medyanı ile dolduruldu
 
 &#x20;
 
-\## Makine Öğrenmesi
+## Makine Öğrenmesi
 
 **Hedef:** `type` → Movie (0) / TV Show (1)
 
@@ -67,14 +67,14 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 |Recall|1.00|
 |F1-Score|1.00|
 
-> \\\*\\\*Yüksek accuracy notu:\\\*\\\* Model %99.97 doğruluk elde etmiştir.
+> **Yüksek accuracy notu:** Model %99.97 doğruluk elde etmiştir.
 > Bu sonuç, `duration` gibi sütunların hedef değişken (`type`) ile doğrudan ilişkili olmasından kaynaklanıyor olabilir.
 > Filmler dakika, diziler sezon cinsinden süre içerdiğinden model kısayol buluyor olabilir.
 > Gerçek bir üretim senaryosunda bu tür özellikler dikkatli değerlendirilmelidir.
 
 
 
-\## Genel Bulgular
+## Genel Bulgular
 
 
 
@@ -88,7 +88,7 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 
 
 
-\## Veri Seti
+## Veri Seti
 
 **Kaynak:** [Netflix Movies and TV Shows — Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
